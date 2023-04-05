@@ -1,0 +1,141 @@
+:root {
+    --primary-font:'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --primary-font-color: #2E2F42;
+    --secondary-font-color: #434455;
+    --accent-color:#404BBF; 
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-font-color)
+}
+/* HEADER*/
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.web-logo {
+    color: #4D5AE5;
+}
+
+.logo-dark {
+    color: #F4F4FD;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+    text-decoration: underline;
+    border-radius: 2px;
+}
+
+.email-address,
+.phone{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-font-color);
+}
+
+.email-address:hover,
+.email-address:focus {
+    color: #404BBF;
+    text-decoration: underline;
+    border-radius: 2px;
+}
+
+/*HERO*/
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+     color: #FFFFFF;
+}
+.hero-button {
+    background: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--accent-color)
+}
+
+/* SECTION TASKS*/ 
+
+.bar-name {
+font-family: var(--primary-font);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.bar-info {
+font-family: var(--primary-font);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-font-color);
+
+}
+
+.footer-info {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* PORTFOLIO */ 
+
+.filter-btn {
+font-family: var(--primary-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
+cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
