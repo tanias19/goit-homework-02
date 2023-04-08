@@ -70,6 +70,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
 }
 
@@ -105,6 +106,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 
 }
 
@@ -143,6 +145,7 @@ body {
 /* PORTFOLIO */
 
 .filter-btn {
+    font-family: "Roboto", sans-serif ;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
