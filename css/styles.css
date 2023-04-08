@@ -12,20 +12,18 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    ;
     background-color: #FFFFFF;
+    color:#434455;
+    
 }
 
 /* HEADER*/
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    ;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -47,19 +45,17 @@ body {
     color: #2e2f42;
 }
 
-.address-list {
-    color: #434455 ;
-}
-
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
-    text-decoration: underline;
-    border-radius: 2px;
 }
 
 .address {
     font-style: normal
+}
+
+.address-list {
+    font-weight: 400;
 }
 
 /*HERO*/
@@ -72,18 +68,15 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .hero-button {
-    font-family: 'Roboto', sans-serif;
     background: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
@@ -98,7 +91,6 @@ body {
 /* SECTION TASKS*/
 
 .bar-name {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -107,20 +99,16 @@ body {
 }
 
 .bar-info {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 
 }
 
 .title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
@@ -150,13 +138,7 @@ body {
 
 /* PORTFOLIO */
 
-body {
-    color: #434455;
-
-}
-
 .filter-btn {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
